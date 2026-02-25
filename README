@@ -56,14 +56,6 @@ Default alert thresholds (edit in `monitor.py`):
 2024-02-25 14:23:50 | CPU: 85.1% | Memory: 82.4% | Disk: 75.3% | ALERTS: ⚠️ HIGH CPU USAGE: 85.1%, ⚠️ HIGH MEMORY USAGE: 82.4%
 ```
 
-## Skills Demonstrated
-
-- Python programming
-- System monitoring and resource management
-- File I/O and logging
-- Alert systems and threshold monitoring
-- Process management
-
 ## Future Enhancements
 
 - Email/SMS alerts
