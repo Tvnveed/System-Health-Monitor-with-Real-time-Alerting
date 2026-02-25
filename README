@@ -71,7 +71,3 @@ Default alert thresholds (edit in `monitor.py`):
 - Historical data analysis
 - Network usage monitoring
 - Multi-platform support
-
-## License
-
-MIT License
