@@ -1,0 +1,73 @@
+System Health Monitor
+
+A Python-based real-time system monitoring tool that tracks CPU, memory, and disk usage with configurable alerting thresholds.
+
+Features
+
+- Real-time monitoring of system resources (CPU, memory, disk)
+- Configurable alert thresholds
+- Continuous logging to file
+- Console output with visual alerts
+- Lightweight and efficient
+
+Requirements
+
+- Python 3.x
+- psutil library
+
+Installation
+
+1. Clone the repository:
+
+git clone https://github.com/yourusername/system-health-monitor.git
+cd system-health-monitor
+
+2. Install dependencies:
+
+pip install psutil
+
+Usage
+
+Run the monitor:
+
+python monitor.py
+
+The script will:
+- Check system metrics every 5 seconds
+- Display metrics in the console
+- Log all data to system_monitor.log
+- Trigger alerts when thresholds are exceeded
+
+Stop the monitor with Ctrl+C
+
+Configuration
+
+Default alert thresholds (edit in monitor.py):
+- CPU: 80%
+- Memory: 80%
+- Disk: 90%
+
+Output Example
+
+2024-02-25 14:23:45 | CPU: 45.2% | Memory: 62.8% | Disk: 75.3%
+2024-02-25 14:23:50 | CPU: 85.1% | Memory: 82.4% | Disk: 75.3% | ALERTS: ⚠️ HIGH CPU USAGE: 85.1%, ⚠️ HIGH MEMORY USAGE: 82.4%
+
+Skills Demonstrated
+
+- Python programming
+- System monitoring and resource management
+- File I/O and logging
+- Alert systems and threshold monitoring
+- Process management
+
+Future Enhancements
+
+- Email/SMS alerts
+- Web dashboard for visualization
+- Historical data analysis
+- Network usage monitoring
+- Multi-platform support
+
+License
+
+MIT License
